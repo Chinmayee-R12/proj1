@@ -10,7 +10,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'master', url:'https://github.co/ven.git',
+                git branch: 'master', url:'https://github.com/Chinmayee-R12/proj1.git',
                 credentialsId: 'github-token'
             }
         }
